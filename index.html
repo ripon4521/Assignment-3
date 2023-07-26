@@ -43,7 +43,49 @@
   <body class="font-lato">
 
     <header class="container mx-auto">
-        <nav>
+
+      <!-- navbar section  -->
+        <nav class="flex justify-between items-center lg:bg-[#F85559] rounded-full p-5 mt-10">
+          <div class=" pl-5 hidden lg:flex">
+            <ul class="flex gap-10 list-none text-white">
+              <li><a href="">Home</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Shop</a></li>
+              <li><a href="">All Fruits</a></li>
+            </ul>
+          </div>
+          
+         <div>
+        
+        
+          <div class="navbar-center flex gap-5 items-center">
+            <img src="./images/logo.png" alt="" class="w-10 h-10">
+            <h1 class="text-black lg:text-white text-[20px] lg:text-[40px] w-full mx-auto">Fruit Burst</h1>
+          </div>
+          </div>
+          <div class="form-control hidden lg:flex">
+            <input type="text" placeholder="Search" class="input input-bordered w-[400px]  rounded-full" />
+            <i class="fa-solid fa-magnifying-glass absolute right-56 top-[83px]"></i>
+          </div>
+
+          <div class="navbar-end  lg:hidden flex">
+            <div class="navbar-end">
+              <div class="dropdown ">
+                <label tabindex="0" class="btn btn-ghost btn-circle">
+                <img src="./images/Frame.png" alt="">
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content  mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-24   ">
+                  <li><a>Home</a></li>
+                  <li><a>About us</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>All Ferits</a></li>
+                  
+                  
+                </ul>
+              </div>
+            </div>
+         </div>
+           
 
         </nav>
         
@@ -505,7 +547,7 @@
        </div>
         <!-- middle imge  -->
         <div >
-          <img class=" lg:ml-24 mt-12" src="./images/whychoose1.png" alt="">
+          <img class=" lg:ml-24 mt-10" src="./images/whychoose1.png" alt="">
         </div>
     </div>
 
